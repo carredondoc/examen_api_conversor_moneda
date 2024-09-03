@@ -1,5 +1,3 @@
-// Section: Fetching and Handling Data
-
 let crearBorrarChart = null;
 
 async function fetchValores() {
@@ -76,7 +74,7 @@ async function transformarDinero() {
     return;
   }
 
- const resultadoFinal = cantidadNum / valorMonedaNum;
+  const resultadoFinal = cantidadNum / valorMonedaNum;
   resultElement.innerHTML = `$${resultadoFinal.toFixed(2)}`;
 }
 
