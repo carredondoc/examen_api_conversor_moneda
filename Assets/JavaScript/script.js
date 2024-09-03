@@ -76,8 +76,8 @@ async function transformarDinero() {
     return;
   }
 
-  const resultadoFinal = cantidadNum / valorMonedaNum;
-  resultElement.innerHTML = resultadoFinal.toFixed(2);
+ const resultadoFinal = cantidadNum / valorMonedaNum;
+  resultElement.innerHTML = `$${resultadoFinal.toFixed(2)}`;
 }
 
 document
